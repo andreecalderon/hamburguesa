@@ -1,0 +1,135 @@
+#root {
+    width: 100%;
+    height: 97vh;
+    background-color: rgb(200, 188, 212);
+    display: grid;
+
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(20,1fr);
+}
+
+.div-pan {
+    border: 1px solid black;
+    border-radius: 20px 20px 5px 5px;
+    background-color: rgba(255, 207, 75, 0.897);
+    grid-column: 7/11;
+    grid-row: 1/3;
+
+    display: grid;
+    grid-template-rows: 1fr 10px;
+}
+
+.sombra-pan {
+    grid-column: 1/8;
+    grid-row: 2/3;
+    
+    height: 10px;
+
+    border-radius: 1px 1px 4px 4px;
+    background-color: rgba(202, 169, 78, 0.897);
+}
+
+.queso {
+    border: 1px solid black;
+    background-color: yellow;
+
+    grid-column: 6/12;
+}
+
+.tomate {
+    border: 1px solid black;
+    background-color: red;
+
+    grid-column: 7/11;
+}
+
+.cebolla {
+    border: 1px solid black;
+    background: linear-gradient(45deg, #6a0dad, #d8b4e2, #6a0dad, #6a0dad);
+
+
+    grid-column: 7/11;
+}
+
+.div-contenedor {
+  
+    grid-column: 7/11;
+    grid-row: 9/11;
+
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+}
+
+.div-albondiga {
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: brown;
+    grid-column: 2/4;
+
+}
+
+.div-albondiga2 {
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: brown;
+    grid-column: 5/7;
+}
+
+.div-albondiga3 {
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: brown;
+    grid-column: 8/10;
+}
+
+.lechuga1 {
+    border: 1px solid black;
+    border-radius: 1px 1px 10px 10px;
+    background-color: rgb(61, 214, 61);
+    grid-column: 7/11;
+
+    display: grid;
+    grid-template-rows: 1fr 10px;
+
+}
+
+.sombra-lechuga {
+    height: 10px;
+    background-color: green;
+    grid-row: 2/3;
+}
+
+.carne {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: brown;
+    grid-column: 6/12;
+}
+
+.div-pan2 {
+    border: 1px solid black;
+    border-radius: 5px 5px 20px 20px;
+    background-color: rgba(255, 207, 75, 0.897);
+    grid-column: 7/11;
+    grid-row: 14/16;
+
+    display: grid;
+    grid-template-rows: 1fr 10px;
+}
+
+.sombra-panito {
+    grid-column: 1/8;
+    height: 10px;
+
+    border-radius: 4px 4px 1px 1px;
+    background-color: rgba(202, 169, 78, 0.897);
+}
+
+.plato {
+    border: 1px solid black;
+    border-radius: 1px 1px 20px 20px;
+    background-color: gray;
+    grid-column: 5/13;
+}
+
+
